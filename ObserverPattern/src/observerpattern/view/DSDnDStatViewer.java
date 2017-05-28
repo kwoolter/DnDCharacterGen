@@ -51,7 +51,7 @@ public class DSDnDStatViewer extends javax.swing.JPanel implements ActionListene
         this.fMinOpacity = 0.00f;
 
         try {
-            this.imgOriginal = ImageIO.read(new File("src/observerpattern/resources/dnd.jpg"));
+            this.imgOriginal = ImageIO.read(new File("./ObserverPattern/src/observerpattern/resources/dnd.jpg"));
             this.imgFormatted = new BufferedImage(imgOriginal.getWidth(), imgOriginal.getHeight(), java.awt.Transparency.TRANSLUCENT);
             Graphics2D g = imgFormatted.createGraphics();
             g.setComposite(AlphaComposite.getInstance(AlphaComposite.SRC_OVER, this.fImageOpacity));

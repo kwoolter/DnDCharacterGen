@@ -59,7 +59,7 @@ public class DSStatDictionary {
         }
 
 
-        Path p1 = Paths.get(".\\src\\observerpattern\\model\\stats\\data", sDictionaryName + ".csv");
+        Path p1 = Paths.get(".\\ObserverPattern\\src\\observerpattern\\model\\stats\\data", sDictionaryName + ".csv");
 
         try {
 

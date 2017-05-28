@@ -41,7 +41,7 @@ public class DSStatFactory {
         System.out.println("Loading " + this.sFactoryName + "...");
         Scanner s = null;
 
-        Path p1 = Paths.get(".\\src\\observerpattern\\model\\stats\\data", this.sFactoryName + ".csv");
+        Path p1 = Paths.get(".\\ObserverPattern\\src\\observerpattern\\model\\stats\\data", this.sFactoryName + ".csv");
 
         try {
 
