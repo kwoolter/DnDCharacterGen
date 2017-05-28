@@ -1,0 +1,135 @@
+STAT_NAME,CATEGORY,DISPLAY_NAME,DESCRIPTION,CALCULATION
+DAMAGE_STR_MIN,ATTACK,Strength attack minimum damage,dd,cc
+DAMAGE_DEX_MIN,ATTACK,Dexterity attack minimum damage,dd,cc
+DAMAGE_STR_MAX,ATTACK,Strength attack maximum damage,dd,cc
+DAMAGE_DEX_MAX,ATTACK,Dexterity attack maximum damage,dd,cc
+DAMAGE_STR_ROLL,ATTACK,Strength attack damage roll,dd,cc
+DAMAGE_DEX_ROLL,ATTACK,Dexterity attack damage roll,dd,cc
+SKILL_HISTORY_RACE_BONUS,SKILL,History Racial Bonus,Racial bonus to your ability score,Derived from the race of your character
+SENSE_INSIGHT,SENSE,Passive insight,Recognize an effect as illusory,10 + Insight skill score
+SENSE_PERCEPTION,SENSE,Passive perception,Notice things around you even when you are not looking for them,10 + Perception skill score
+CLASS_HEALING_SURGES_PER_DAY,HIT_POINTS,Class healing surges per day,Your class determines how many healing surges you can spend in a day.,Derived from the class of your character
+CLASS_HP_PER_LVL,HIT_POINTS,HP per level,How many hit points your character gains each time they level up,Derived from the class of your character
+CLASS_LVL1_HP,HIT_POINTS,HP at level 1,How many hit points your selected class gets at level 1,Based on the class you selected for your character
+HEALING_SURGES_PER_DAY,HIT_POINTS,Total healing surges per day,The overall total number of healing surges you can spend in a day.,Constitution modifier + class healing surges per day
+MAX_HP,HIT_POINTS,Maximum HP,Maximum hit points for your character,Constitution score + Class HP at Level 1 + (Class HP pee level * (Level - 1))
+SKILL_ACROBATICS,SKILL,Acrobatics,You can perform an acrobatic stunt; keep your balance on narrow or unstable surfaces; slip free from a grab or restraint or take less damage from a fall,DEX modifier + level/2 + race bonus + trained bonus - armor penalty - shield penalty
+SKILL_ARCANA,SKILL,Arcana,You have picked up knowledge about magic-related lore and magic effects. This knowledge extends to information about the following planes of existence;including the creatures native to those planes: the Elemental Chaos; the Feywild; and the Shadowfell.,INT modifier + level/2 + race bonus + trained bonus
+SKILL_ATHLETICS,SKILL,Athletics,Make an Athletics check to attempt physical activities that rely on muscular strength; including climbing; escaping from a grab; jumping; and swimming.,STR modifier + level/2 + race bonus + trained bonus - armor penalty - shield penalty
+SKILL_BLUFF,SKILL,Bluff,You can make what’s false appear to be true; what’s outrageous seem plausible; and what’s suspicious seem ordinary. You make a Bluff check to fast-talk a guard; con a merchant; gamble; pass off a disguise or fake documentation; and otherwise tell lies.,CHA modifier + level/2 + race bonus + trained bonus
+SKILL_DIPLOMACY,SKILL,Diplomacy,You can influence others with your tact; subtlety; and social grace. Make a Diplomacy check to change opinions; to inspire good will; to haggle with a patron; to demonstrate proper etiquette and decorum; or to negotiate a deal in good faith.,CHA modifier + level/2 + race bonus + trained bonus
+SKILL_DUNGEONEERING,SKILL,Dungeoneering,You have picked up knowledge and skills related to dungeoneering; including finding your way through dungeon complexes; navigating winding caverns; recognizing dungeon hazards; and foraging for food in the Underdark.,WIS modifier + level/2 + race bonus + trained bonus
+SKILL_ENDURANCE,SKILL,Endurance,Make an Endurance check to stave off ill effects and to push yourself beyond normal physical limits. You can hold your breath for long periods of time; forestall the debilitating effects of hunger and thirst; and swim or tread water for extended periods.,CON modifier + level/2 + race bonus + trained bonus - armor penalty - shield penalty
+SKILL_HEAL,SKILL,Heal,You know how to help someone recover from wounds or debilitating conditions; including disease.,WIS modifier + level/2 + race bonus + trained bonus
+SKILL_HISTORY,SKILL,History,You have picked up knowledge related to the history of a region and beyond; including the chronological record of significant events and an explanation of their causes.,INT modifier + level/2 + race bonus + trained bonus
+SKILL_INSIGHT,SKILL,Insight,You can discern intent and decipher body language during social interactions. You make an Insight check to comprehend motives; to read between the lines; to get a sense of moods and attitudes; and to determine how truthful someone is being.,WIS modifier + level/2 + race bonus + trained bonus
+SKILL_INTIMIDATE,SKILL,Intimidate,Make an Intimidate check to influence others through hostile actions; overt threats; and deadly persuasion.,CHA modifier + level/2 + race bonus + trained bonus
+SKILL_NATURE,SKILL,Nature,Make a Nature check to remember a useful bit of knowledge about the natural world—about terrain; climate; weather; plants; and seasons—or to recognize a nature-related clue.,WIS modifier + level/2 + race bonus + trained bonus
+SKILL_NATURE_RACE_BONUS,SKILL,Nature skill racial bonus,Racial skill bonus,Derived from the race of your character
+SKILL_PERCEPTION,SKILL,Perception,Make a Perception check to notice clues; detect secret doors; spot imminent dangers; find traps; follow tracks; listen for sounds behind a closed door; or locate hidden objects.,WIS modifier + level/2 + race bonus + trained bonus
+SKILL_PERCEPTION_RACE_BONUS,SKILL,Perception skill racial bonus,Racial skill bonus,Derived from the race of your character
+SKILL_RELIGION,SKILL,Religion,You have picked up knowledge about gods; religious traditions and ceremonies; divine effects; holy symbols; and theology. This knowledge extends to information about the undead and the Astral Sea; including the creatures of that plane.,INT modifier + level/2 + race bonus + trained bonus
+SKILL_STEALTH,SKILL,Stealth,Make a Stealth check to conceal yourself from enemies; slink past guards; slip away without being noticed; and sneak up on people without being seen or heard.,DEX modifier + level/2 + race bonus + trained bonus - armor penalty - shield penalty
+SKILL_STREETWISE,SKILL,Streetwise,When in a settlement (a village; a town; or a city) make a Streetwise check to find out what’s going on; who the movers and shakers are; where to get what you need (and how to get there); and where not to go.,CHA modifier + level/2 + race bonus + trained bonus
+SKILL_THIEVERY,SKILL,Thievery,You have picked up thieving abilities and can perform tasks that require nerves of steel and a steady hand: disabling traps; opening locks; picking pockets; and sleight of hand.,DEX modifier + level/2 + race bonus + trained bonus - armor penalty - shield penalty
+ABILITY_CHA,ABILITY,Charisma,Measures your force of personality; persuasiveness and leadership,Dice roll + racial bonus
+ABILITY_CHA_RACE_BONUS,ABILITY,Charisma Racial Bonus,Racial bonus to your ability score,Derived from the race of your character
+ABILITY_CHA_ROLL,ABILITY,Charisma dice roll,Base ability score,Pick from Standard array 16 14 13 12 11 10
+ABILITY_CON,ABILITY,Constitution,Represents your character's health; stamina and vital force,Dice roll + racial bonus
+ABILITY_CON_RACE_BONUS,ABILITY,Constitution Racial Bonus,Racial bonus to your ability score,Derived from the race of your character
+ABILITY_CON_ROLL,ABILITY,Constitution dice roll,Base ability score,Pick from Standard array 16 14 13 12 11 10
+ABILITY_DEX,ABILITY,Dexterity,Measures hand-eye coordination; agility; reflexes and balance,Dice roll + racial bonus
+ABILITY_DEX_RACE_BONUS,ABILITY,Dexterity Racial Bonus,Racial bonus to your ability score,Derived from the race of your character
+ABILITY_DEX_ROLL,ABILITY,Dexterity dice roll,Base ability score,Pick from Standard array 16 14 13 12 11 10
+ABILITY_INT,ABILITY,Intelligence,Describes how well your character learns and reasons,Dice roll + racial bonus
+ABILITY_INT_RACE_BONUS,ABILITY,Intelligence Racial Bonus,Racial bonus to your ability score,Derived from the race of your character
+ABILITY_INT_ROLL,ABILITY,Intelligence dice roll,Base ability score,Pick from Standard array 16 14 13 12 11 10
+ABILITY_STR,ABILITY,Strength,Measures your character's physical power,Dice roll + racial bonus
+ABILITY_STR_RACE_BONUS,ABILITY,Strength Racial Bonus,Racial bonus to your ability score,Derived from the race of your character
+ABILITY_STR_ROLL,ABILITY,Strength dice roll,Base ability score,Pick from Standard array 16 14 13 12 11 10
+ABILITY_WIS,ABILITY,Widsom,Measures your common sense; perception; self-discipline and empathy,Dice roll + racial bonus
+ABILITY_WIS_RACE_BONUS,ABILITY,Widsom Racial Bonus,Racial bonus to your ability score,Derived from the race of your character
+ABILITY_WIS_ROLL,ABILITY,Widsom dice roll,Base ability score,Pick from Standard array 16 14 13 12 11 10
+LVL,ABILITY,Level,The current level of you character,Based off your accumulated XP
+XP,ABILITY,Experience Points,Cumulated experience points (XP),Gained as you adventure
+ABILITY_CHA_MODIFIER,ABILITY_MODIFIER,Charisma modifier,Modifier to add to attacks; checks and defenses,(Ability score - 10)/2 rounded down
+ABILITY_CON_MODIFIER,ABILITY_MODIFIER,Constitution modifier,Modifier to add to attacks; checks and defenses,(Ability score - 10)/2 rounded down
+ABILITY_DEX_MODIFIER,ABILITY_MODIFIER,Dexterity modifier,Modifier to add to attacks; checks and defenses,(Ability score - 10)/2 rounded down
+ABILITY_INT_MODIFIER,ABILITY_MODIFIER,Intelligence modifier,Modifier to add to attacks; checks and defenses,(Ability score - 10)/2 rounded down
+ABILITY_STR_MODIFIER,ABILITY_MODIFIER,Strength modifier,Modifier to add to attacks; checks and defenses,(Ability score - 10)/2 rounded down
+ABILITY_WIS_MODIFIER,ABILITY_MODIFIER,Widsom modifier,Modifier to add to attacks; checks and defenses,(Ability score - 10)/2 rounded down
+AC,DEFENSE,Armor Class,Measures how hard it is for your enemies to land a significant blow on you with a weapon,10 + level/2 + racial bonus + class bonus + armor bonus + shield bonus + Max(DEX/INT modifier) if wearing light armor
+DEFENSE_AC_CLASS_BONUS,DEFENSE,Armor Class class bonus,Class bonus to defense,Derived from the class of your character
+DEFENSE_FORT_CLASS_BONUS,DEFENSE,Fortitude class bonus,Class bonus to defense,Derived from the class of your character
+DEFENSE_REF_CLASS_BONUS,DEFENSE,Reflex class bonus,Class bonus to defense,Derived from the class of your character
+DEFENSE_WILL_CLASS_BONUS,DEFENSE,Will class bonus,Class bonus to defense,Derived from the class of your character
+DEFENSE_AC_RACE_BONUS,DEFENSE,Armor Class race bonus,Race bonus to defense,Derived from the race of your character
+DEFENSE_FORT_RACE_BONUS,DEFENSE,Fortitude race bonus,Race bonus to defense,Derived from the race of your character
+DEFENSE_REF_RACE_BONUS,DEFENSE,Reflex race bonus,Race bonus to defense,Derived from the race of your character
+DEFENSE_WILL_RACE_BONUS,DEFENSE,Will race bonus,Race bonus to defense,Derived from the race of your character
+FORT,DEFENSE,Fortitude,Measures the inherent toughness; mass; strength and resilience of your physique,10 + level/2 + racial bonus + class bonus + Max(STR/CON modifier)
+REF,DEFENSE,Reflex,Measures your ability to predict attacks or to deflect or dodge an attack,10 + level/2 + racial bonus + class bonus + shield bonus + Max(DEX/INT modifier)
+WILL,DEFENSE,Will,Your defense against effects that daze; disorient; confuse or overpower your mind,10 + level/2 + racial bonus + class bonus + Max(WIS/CHA modifier)
+SPEED_RACE_BASE,SPEED,Race speed,The number of squares you can normally move when you walk,Derived from the race of your character
+ITEM_ARMOR_SKILL_PENALTY,ITEM,Armor penalty to skill checks,You take this penalty to all Strength; Dexterity and Constitution-based skill checks when you wear the armor.,Derived from the armor that you have equipped
+ITEM_ARMOR_SPEED_PENALTY,ITEM,Armor penalty to speed,You take this penalty to your speed (in squares) when wearing the armor.,Derived from the armor that you have equipped
+ITEM_ARMOR_CLASS,ITEM,Armor bonus to AC,Armor provides this bonus to AC,Derived from the armor that you have equipped
+ITEM_SHIELD_ARMOR_CLASS,ITEM,Shield bonus to AC/REF,Shields provide this bonus to AC and Reflex defense,Derived from the shield that you have equipped
+ITEM_SHIELD_SKILL_PENALTY,ITEM,Shield penalty to skill checks,You take this penalty to all Strength; Dexterity and Constitution-based skill checks when you wear the shield.,Derived from the shield that you have equipped
+ITEM_SHIELD_SPEED_PENALTY,ITEM,Shield penalty to speed,You take this penalty to your speed (in squares) when wearing the shield.,Derived from the shield that you have equipped
+ITEM_ARMOR_PRICE,ITEM,Armor value,The item’s cost in gold pieces,Derived from the armor that you have equipped
+ITEM_SHIELD_PRICE,ITEM,Shield value,The item’s cost in gold pieces,Derived from the shield that you have equipped
+ITEM_RANGED_WEAPON_PRICE,ITEM,Ranged weapon value,The item’s cost in gold pieces,Derived from the weapon that you have equipped
+ITEM_MELEE_WEAPON_PRICE,ITEM,Melee weapon value,The item’s cost in gold pieces,Derived from the weapon that you have equipped
+ITEM_ARMOR_WEIGHT,ITEM,Armor weight,The item's weight in lbs,Derived from the armor that you have equipped
+ITEM_SHIELD_WEIGHT,ITEM,Shield weight,The item's weight in lbs,Derived from the shield that you have equipped
+ITEM_MELEE_WEAPON_WEIGHT,ITEM,Melee weapon weight,The item's weight in lbs,Derived from the weapon that you have equipped
+ITEM_RANGED_WEAPON_WEIGHT,ITEM,Ranged weapon weight,The item's weight in lbs,Derived from the weapon that you have equipped
+LANGUAGE_COMMON,LANGUAGE,Common language,Spoken by Humans; Halflings and Tieflings,Derived from the race of your character
+LANGUAGE_DRACONIC,LANGUAGE,Draconic language,Spoken by dragons; Dragonborn and Kobolds,Derived from the race of your character
+LANGUAGE_DWARVEN,LANGUAGE,Dwarven language,Spoken by Dwarves and azer,Derived from the race of your character
+LANGUAGE_ELVEN,LANGUAGE,Elven language,Spoken by Elves; Eladrin and fomorlans,Derived from the race of your character
+LANGUAGE_OTHER,LANGUAGE,One other language,Character can learn another language of their choice,Derived from the race of your character
+PROFICIENCY_ARMOR_CLOTH,PROFICIENCY,Armor proficiency - cloth,If you wear this type of armor you will gain the bonus to AC defense for the selected armor,Derived from the class of your character
+PROFICIENCY_ARMOR_LEATHER,PROFICIENCY,Armor proficiency - leather,If you wear this type of armor you will gain the bonus to AC defense for the selected armor,Derived from the class of your character
+PROFICIENCY_ARMOR_HIDE,PROFICIENCY,Armor proficiency - hide,If you wear this type of armor you will gain the bonus to AC defense for the selected armor,Derived from the class of your character
+PROFICIENCY_ARMOR_CHAINMAIL,PROFICIENCY,Armor proficiency - chainmail,If you wear this type of armor you will gain the bonus to AC defense for the selected armor,Derived from the class of your character
+PROFICIENCY_ARMOR_SCALE,PROFICIENCY,Armor proficiency - scale,If you wear this type of armor you will gain the bonus to AC defense for the selected armor,Derived from the class of your character
+PROFICIENCY_ARMOR_PLATE,PROFICIENCY,Armor proficiency - plate,If you wear this type of armor you will gain the bonus to AC defense for the selected armor,Derived from the class of your character
+PROFICIENCY_SHIELD_LIGHT,PROFICIENCY,Shield profiency - light,If you wear this type of armor you will gain the bonus to AC defense for the selected armor,Derived from the class of your character
+PROFICIENCY_SHIELD_HEAVY,PROFICIENCY,Shield profiency - heavy,If you wear this type of armor you will gain the bonus to AC defense for the selected armor,Derived from the class of your character
+PROFICIENCY_WEAPON_SIMPLE_MELEE,PROFICIENCY,Weapon proficiency - simple melee,Bonus to attack rolls if you are proficient in the weapon being used,Derived from the class of your character
+PROFICIENCY_WEAPON_MILITARY_MELEE,PROFICIENCY,Weapon proficiency - military melee,Bonus to attack rolls if you are proficient in the weapon being used,Derived from the class of your character
+PROFICIENCY_WEAPON_SIMPLE_RANGED,PROFICIENCY,Weapon proficiency - simple ranged,Bonus to attack rolls if you are proficient in the weapon being used,Derived from the class of your character
+PROFICIENCY_WEAPON_MILITARY_RANGED,PROFICIENCY,Weapon proficiency - military ranged,Bonus to attack rolls if you are proficient in the weapon being used,Derived from the class of your character
+PROFICIENCY_WEAPON_DAGGER,PROFICIENCY,Weapon proficiency - dagger,Bonus to attack rolls if you are proficient in the weapon being used,Derived from the class of your character
+PROFICIENCY_WEAPON_HAND_CROSSBOW,PROFICIENCY,Weapon proficiency - hand crossbow,Bonus to attack rolls if you are proficient in the weapon being used,Derived from the class of your character
+PROFICIENCY_WEAPON_SHURIKEN,PROFICIENCY,Weapon proficiency - shuriken,Bonus to attack rolls if you are proficient in the weapon being used,Derived from the class of your character
+PROFICIENCY_WEAPON_SLING,PROFICIENCY,Weapon proficiency - sling,Bonus to attack rolls if you are proficient in the weapon being used,Derived from the class of your character
+PROFICIENCY_WEAPON_SHORT_SWORD,PROFICIENCY,Weapon proficiency - short sword,Bonus to attack rolls if you are proficient in the weapon being used,Derived from the class of your character
+PROFICIENCY_WEAPON_LONGSWORD,PROFICIENCY,Weapon proficiency - long sword,Bonus to attack rolls if you are proficient in the weapon being used,Derived from the class or race of your character
+PROFICIENCY_WEAPON_QUARTERSTAFF,PROFICIENCY,Weapon proficiency - quarterstaff,Bonus to attack rolls if you are proficient in the weapon being used,Derived from the class of your character
+PROFICIENCY_WEAPON_LONGBOW,PROFICIENCY,Weapon proficiency - long bow,Bonus to attack rolls if you are proficient in the weapon being used,Derived from the class of your character
+PROFICIENCY_WEAPON_SHORTBOW,PROFICIENCY,Weapon proficiency - short bow,Bonus to attack rolls if you are proficient in the weapon being used,Derived from the class of your character
+PROFICIENCY_WEAPON_WARHAMMER,PROFICIENCY,Weapon proficiency - Warhammer,Bonus to attack rolls if you are proficient in the weapon being used,Derived from the race of your character
+ITEM_WEAPON_DAMAGE_DICE,ATTACK,Weapon damage dice,How many damage dice should you roll to determine the damage of the selected weapon,Derived from the weapon that you are using
+ITEM_WEAPON_DAMAGE_DICE_SIDES,ATTACK,Weapon damage dice sides,How many sides does each damage dice have,Derived from the weapon that you are using
+SPEED,SPEED,Speed,Maximum number of squares that can be moved in a turn,Race speed - armor speed penalty
+ATTACK_STR,ATTACK,Strength attack bonus,Base attack bonus,Ability modifier + weapon proficiency bonus + level/2
+ATTACK_INT,ATTACK,Intelligence attack bonus,Base attack bonus,Ability modifier + level/2
+ATTACK_DEX,ATTACK,Dexterity attack bonus,Base attack bonus,Ability modifier + weapon proficiency bonus + level/2
+ATTACK_WIS,ATTACK,Wisdom attack bonus,Base attack bonus,Ability modifier + level/2
+INITIATIVE,ATTACK,Initiative,Modifier added to 1d20 initiative roll to determine order of turns in a combat encounter,Dexterity modifier + level/2
+WEIGHT_MAX_LOAD,WEIGHT,Maximum normal load,The maximum weight which you can normally carry without penalty,Strength ability score x 10
+RACE_HEALING_SURGE_BONUS,HIT_POINTS,Racial healing surge value bonus,Race receives a bonus to healing surge value,Derived from the class of your character
+HEALING_SURGE_VALUE,HIT_POINTS,Healing surge value,The increase in HP you gain when you spend a healing surge,(Max HP /4) + CON modifier if you get a racial bonus
+CURRENT_HP,HIT_POINTS,Current HP,The current HP of your character,Calculated from Max HP - any damage taken
+CURRENT_DAMAGE,HIT_POINTS,Current damage taken,Total damage taken,The total amount of damage taken to your hit points
+CONDITION_BLOODIED,CONDITIONS,Bloodied,dd,You are bloodied if your current HP <= Max HP/2
+CONDITION_DYING,CONDITIONS,Dying,dd,You are dying if your current HP <= 0
+PROFICIENCY_MELEE_WEAPON,PROFICIENCY,Proficient in equipped melee weapon,dd,cc
+PROFICIENCY_RANGED_WEAPON,PROFICIENCY,Proficient in equipped ranged weapon,dd,cc
+PROFICIENCY_SHIELD,PROFICIENCY,Proficient in equipped shield,dd,cc
+PROFICIENCY_ARMOR,PROFICIENCY,Proficient in equipped armor,dd,cc
+POWER_ENCUMBERED_SPEED,SPEED,Encumbered Speed,You move at your normal speed,cc
+SPEED_PENALTY,SPEED,Penalty to speed,dd,cc
